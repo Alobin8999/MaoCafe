@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+
+@font-face {
+    font-family: 'LIS';
+    src: url(11525.ttf);
+}
+
+@font-face {
+    font-family: 'Kaisei';
+    src: url(KaiseiDecol-Regular.ttf);
+}
+
+body {
+    font-family: 'LIS';
+    font-style: normal;
+    text-decoration-color: #FFFFFF;
+	background: #F3D9B4;
+	min-width: 1920px;
+	height: auto;
+}
+header a:hover{
+	color: #F3D9B4;
+}
+main{
+	min-width: calc(1920px - 260px);
+	height: auto;
+	display: block;
+	margin: 0 135px;
+}
+
+main section{
+	height: auto;
+}
+
+header{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+header div{
+	width: 250px;
+	margin: 20px auto;
+}
+
+header img{
+	width: 200px;
+	height: 50px;
+	margin: auto 0;
+	margin-left: 50px;
+}
+
+a{
+	color: white;
+	font-size: 30px;
+	transition: .5s;
+}
+
+.container{
+	min-width: calc(1920px - 260px);
+	height: auto;
+	background: #A4684E;
+}
+
+#block1{
+	min-width: calc(1920px - 260px);
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 50%);
+}
+
+#block1 h1{
+	font-size: 50px;
+}
+
+#sec1 div{
+	width: 40%;
+	margin: 50px auto;
+}
+#sec1 img{
+	border-radius: 75px;
+}
+#sec1 div h2{
+	margin: 30px auto;
+	text-align:center;
+	width: 400px;
+}
+
+main span{
+	text-align: center;
+	margin: 40px auto;
+	font-size: 20px;
+	height: auto;
+}
+
+#block1{
+	height: auto;
+}
+#block1 div{
+	width: 100%;
+	height: 964px;
+	background: #E1B183;
+}
+
+#nado{
+	width: 100%;
+	height: 964px;
+}
+#block1 span{
+	position: relative;
+	top: 175px;
+}
+
+#block1 h2{
+	text-align: center;
+	margin: auto 100px;
+	font-size: 30px;
+}
+p{
+	text-align: justify;
+	margin: 20px auto;
+	width: 50%;
+	font-size: 30px;
+}
+
+footer{
+	min-width: calc(1920px - 260px);
+	height: auto;
+	background: #A4684E;
+	display:flex;
+	justify-content: center;
+}
+
+footer img{
+	margin: 50px auto;
+}
+
+.text{
+	min-width: calc(1920px - 260px);
+	text-align: center;
+	padding: 200px;
+}
+
+.text span{
+	margin: 20px auto;
+}
+.text h2{
+	width: 80%;
+	margin: auto;
+}
+
+#imgs{
+	display: flex;
+	flex-direction: row;
+	padding: 50px;
+}
+}
+#imgs img, span{
+	margin: 100px auto;
+}
+#imgs img{
+	transition: .5s;
+}
+#imgs img:hover{
+	scale: 1.025;
+	border-radius: 10px;
+}
+
+#imgs section{
+	width: 50%;
+	margin: 50px auto;
+}
+
+#imgs section h2{
+	font-size: 20px;
+	text-align: left;
+	width: 45%;
+	float: right;
+	position: relative;
+	top: 50px; right: 75px;
+}

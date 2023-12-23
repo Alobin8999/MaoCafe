@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+	font-family: 'LIS';
+}
+
+
+@font-face {
+    font-family: 'LIS';
+    src: url(11525.ttf);
+}
+
+@font-face {
+    font-family: 'Kaisei';
+    src: url(KaiseiDecol-Regular.ttf);
+}
+
+body {
+    font-family: 'LIS';
+    font-style: normal;
+    text-decoration-color: #FFFFFF;
+	background: #F3D9B4;
+	min-width: 1920px;
+	height: auto;
+}
+
+main{
+	min-width: calc(1920px - 260px);
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+}
+header div{
+	width: 250px;
+	margin: 20px;
+}
+
+header img{
+	width: 200px;
+	height: 50px;
+	margin: auto 0;
+}
+
+header a{
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
+	transition: .5s;
+}
+header a:hover{
+	color: #F3D9B4;
+	cursor: pointer;
+}
+
+main img{
+	position: relative;
+}
+
+.container{
+	min-width: 1920px;
+	height: auto;
+	background: #A4684E;
+}
+
+#cont{
+	background-image: url("img/1.jpeg");
+	height: 1080px;
+}
+#cont h1{
+	position: relative;
+	top: 175px;
+}
+
+#info{
+	width: 70%;
+	height: calc(1080px - 400px);
+	margin: auto;
+	background: #F3D9B4;
+	border-radius: 30px;
+	position: relative;
+	top: 175px;
+	display: flex;
+	flex-direction: row;
+	padding-top: 100px;
+}
+#info h1{
+	position: absolute;
+	top:65px; left: 39%;
+	font-size: 50px;
+}
+#info section{
+	width: 50%;
+	
+	margin: 10px auto;
+	height: auto;
+	border-radius: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 75%;
+}
+#input div{
+	width: 80%;
+	height: 75px;
+	border-radius: 30px;
+	background: #FFFFFF;
+	opacity: 100%;
+	transition: .5s;
+	margin: 20px 0;
+}
+#big_box{
+	width: 80%;
+	height: 300px;
+	border-radius: 30px;
+	background: #FFFFFF;
+	opacity: 100%;
+	transition: .5s;
+	margin: 20px 0;
+}
+#button{
+	width: 60%;
+	height: 75px;
+	border-radius: 30px;
+	background: #A4684E;
+	margin: 20px 0;
+	transition: .5s;
+}
+#button:hover{
+	scale: 1.1;
+	color: white;
+	cursor: pointer;
+}
+#input h2{
+	text-align: left;
+	position: relative;
+	top: 17px; left: 25px;
+	opacity: 25%;
+}
+#input div:hover{
+	background: white;
+	scale: 1.025;
+	cursor: pointer;
+}
+#big_box h2{
+	text-align: left;
+	position: relative;
+	top: 17px; left: 25px;
+	opacity: 25%;
+}
+#button h2{
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+footer{
+	min-width: calc(1920px - 260px);
+	height: auto;
+	background: #A4684E;
+	display:flex;
+	justify-content: center;
+}
+
+footer img{
+	margin: 50px auto;
+}
+
+.text{
+	min-width: calc(1920px - 260px);
+	text-align: center;
+	padding: 200px;
+}
+
+.text span{
+	margin: 20px auto;
+}
+.text h2{
+	width: 80%;
+	margin: auto;
+}
+ 
+ footer h1{
+	 font-size: 30px;
+	 color: white;
+	 margin: 40px;
+	 font-family: 'LIS';
+ }
